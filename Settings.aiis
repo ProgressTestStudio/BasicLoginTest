@@ -164,15 +164,15 @@
     "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
-    "TfsUserName": "wieland",
-    "TfsPassword": "LzC7DgAcdamPga3RTeowAg==",
-    "TfsSkipAuthDialog": false,
-    "TfsDomain": "progress",
+    "TfsUserName": "",
+    "TfsPassword": "",
+    "TfsSkipAuthDialog": true,
+    "TfsDomain": "",
     "TeamPulseServerUrl": "",
-    "TpUserName": "admin",
-    "TpPassword": "4fWtEXR+3KjB+iLDbk2QDw==",
+    "TpUserName": "",
+    "TpPassword": "",
     "TpUseWindowsAuth": false,
-    "TpSkipAuthDialog": true,
+    "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
     "PromptNameOnAddElement": true,
@@ -193,7 +193,7 @@
       }
     },
     "IsOnline": true,
-    "ProjectLanguage": 2,
+    "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
       "System.Core",
@@ -213,12 +213,45 @@
     "ExcludedFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
-    "BugTrackerPersistableSettings": {},
-    "ActiveBugTrackers": [],
-    "BugTitleMask": "{Step name} step on {Test name} test failed.",
+    "BugTrackerPersistableSettings": {
+      "JIRA Server": {
+        "__type": "Telerik.TestStudio.Jira.BugTracking.JiraConnectionModel",
+        "__value": {
+          "ServerName": "https://progressteststudio.atlassian.net",
+          "User": "ProgressTestStudio@gmail.com",
+          "Password": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.Base64String",
+            "__value": {
+              "Base64value": "VGVzdGluZzEyMw=="
+            }
+          },
+          "SelectedProject": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.JiraProject",
+            "__value": {
+              "self": "https://progressteststudio.atlassian.net/rest/api/2/project/10000",
+              "id": 10000,
+              "key": "BAS",
+              "name": "BasicLoginTest",
+              "avatarUrls": {
+                "48x48": "https://progressteststudio.atlassian.net/secure/projectavatar?avatarId=10324",
+                "24x24": "https://progressteststudio.atlassian.net/secure/projectavatar?size=small&avatarId=10324",
+                "16x16": "https://progressteststudio.atlassian.net/secure/projectavatar?size=xsmall&avatarId=10324",
+                "32x32": "https://progressteststudio.atlassian.net/secure/projectavatar?size=medium&avatarId=10324"
+              }
+            }
+          },
+          "CurrentVersion": "2017.2.824.0",
+          "XmlBlob": null
+        }
+      }
+    },
+    "ActiveBugTrackers": [
+      "JIRA Server"
+    ],
+    "BugTitleMask": "{0} step on {1} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
-    "BugDescriptionMask": "{Description}",
+    "BugDescriptionMask": "{0}",
     "SelectedBrowserOption": 0
   }
 }
