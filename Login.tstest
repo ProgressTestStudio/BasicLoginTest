@@ -752,9 +752,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
+                          "uniqueKey": null,
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LogoutLinkLink",
@@ -768,13 +768,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Logout"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Logout"
                                       }
                                     }
                                   ],
