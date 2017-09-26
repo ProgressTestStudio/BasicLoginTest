@@ -433,7 +433,7 @@
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
                 "RawText": "abc123",
-                "SimulateRealTyping": true,
+                "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
@@ -754,7 +754,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LogoutLinkLink",

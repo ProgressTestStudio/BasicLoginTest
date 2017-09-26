@@ -14,9 +14,7 @@
           "__value": {
             "IsProfilingExecution": false,
             "ExecutingBrowsers": [
-              1,
-              2,
-              6
+              1
             ],
             "UseMultiBrowserExecution": true,
             "RecycleBrowser": false,
