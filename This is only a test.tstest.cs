@@ -53,5 +53,13 @@ namespace TestProject1
             Pages.HTML5AndJavaScriptWidgets.GridLink.Click(false);
             
         }
+    
+        [CodedStep(@"Click 'UpdateLink'")]
+        public void This_is_only_a_test_CodedStep1()
+        {
+            // Click 'UpdateLink'
+            Pages.PopupDataEditingExample.UpdateLink.Click(false);
+            
+        }
     }
 }
