@@ -206,11 +206,12 @@
     ],
     "ScheduleServerUrl": "http://192.168.1.19:8019/",
     "IsScheduleServerRemote": true,
-    "ProjectVersion": "2017.2.517.0",
+    "ProjectVersion": "2017.3.921.0",
     "Namespace": "TestProject1",
     "AssemblyName": "TestProject1",
     "OutputFolder": "bin",
     "ExcludedFiles": [],
+    "InDevelopmentFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {
@@ -240,7 +241,7 @@
               }
             }
           },
-          "CurrentVersion": "2017.2.824.0",
+          "CurrentVersion": "2017.3.1010.0",
           "XmlBlob": null
         }
       }
