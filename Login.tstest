@@ -754,7 +754,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
+                          "uniqueKey": null,
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LogoutLinkLink",

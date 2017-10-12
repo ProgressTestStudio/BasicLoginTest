@@ -1283,12 +1283,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e4851dd2-8f20-42a4-a489-7238be05214a",
-            "Description": "Click 'AuthFppLinkBottomLink'",
+            "Description": "Click 'AuthFppLinkBottomLink0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
+                "SimulateRealClick": true,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
