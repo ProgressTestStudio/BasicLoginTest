@@ -688,7 +688,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 9,
             "Id": "",
             "StepState": 0,
@@ -754,7 +754,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LogoutLinkLink",
