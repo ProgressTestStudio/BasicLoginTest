@@ -61,5 +61,14 @@ namespace TestProject1
             Pages.PopupDataEditingExample.UpdateLink.Click(false);
             
         }
+    
+        [CodedStep(@"Verify element 'UpdateLink' 'is' visible.")]
+        public void This_is_only_a_test_CodedStep2()
+        {
+            // Verify element 'UpdateLink' 'is' visible.
+            Pages.PopupDataEditingExample.UpdateLink.Wait.ForExists(30000);
+            Assert.AreEqual(true, Pages.PopupDataEditingExample.UpdateLink.IsVisible());
+                        
+        }
     }
 }

@@ -206,7 +206,7 @@
     ],
     "ScheduleServerUrl": "http://192.168.1.19:8019/",
     "IsScheduleServerRemote": true,
-    "ProjectVersion": "2017.3.921.0",
+    "ProjectVersion": "2018.1.116.0",
     "Namespace": "TestProject1",
     "AssemblyName": "TestProject1",
     "OutputFolder": "bin",
@@ -241,7 +241,7 @@
               }
             }
           },
-          "CurrentVersion": "2017.3.1010.0",
+          "CurrentVersion": "2018.1.130.0",
           "XmlBlob": null
         }
       }

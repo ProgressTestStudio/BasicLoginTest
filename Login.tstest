@@ -4,7 +4,7 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "C:\\Users\\wieland\\AppData\\Local\\Temp\\",
     "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
@@ -48,7 +48,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 1,
             "Id": "",
             "StepState": 0,
@@ -87,7 +87,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 2,
             "Id": "",
             "StepState": 0,
